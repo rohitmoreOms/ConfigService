@@ -1,1 +1,10 @@
+spring:
+ application:
+    name: dev-config
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
 
